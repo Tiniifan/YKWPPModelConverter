@@ -23,6 +23,6 @@ You should put all yours .ymd files on one folder like "ymds" because I'm not su
       -h, --help    show this help message and exit
 
 ## Notes
-Yo-Kai Watch Puni Puni is an old game, the ymd are different between the first and the last, the script isn't able to convert all ymds.
+Yo-Kai Watch Puni Puni is an old game, the ymd are different between the first and the last, the script isn't able to convert all ymds.  
 Sometimes when you go to apply your texture in a 3D tool, your texture will be dammaged, go to the UV and do Miror Y to restore the right UVS  
 Sometimes some faces are missing without any reasons.
