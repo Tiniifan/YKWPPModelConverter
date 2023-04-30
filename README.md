@@ -8,7 +8,7 @@ Python scrip to decompile .ez to .zip and Convert .ymd (Yo-Kai Watch Puni Puni m
 ## Usage
 Assuming Python has been installed, you can invoke this script with the following in a command line/terminal:
 
-  `python ez.py [path to folder containing .ymd files]`
+  `python ez.py [path to folder containing .ez files]`
 
 You should put all yours .ez files on one folder like "ezs"
 
