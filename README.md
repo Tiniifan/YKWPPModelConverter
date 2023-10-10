@@ -1,6 +1,12 @@
-# [YKWPPModelConverter](https://github.com/Tiniifan/YKWPPModelConverter/releases/latest) (Yo-Kai Watch Puni Puni Model Converter)
+# [YKWPPModelConverter](https://github.com/Tiniifan/YKWPPModelConverter/releases/latest) (Puni Puni Model Converter)
 
-YKWPP Model Converter is a tool that allows you to decompile `.ez` files and convert `.ymd` files to `.obj`. The tool comes in two versions: a Graphical User Interface (GUI) version and a Command-Line Interface (CMD) version.
+YKWPP Model Converter is a tool that allows you to decompile `.ez` files and convert `.ymd` files to `.obj`.  
+
+The tool comes in two versions: 
+- a Graphical User Interface (GUI) version 
+- a Command-Line Interface (CMD) version.
+  
+For the time being, only the OBJ export functionality is available.
 
 ## Requirements
 - Python 3: https://www.python.org/downloads/
