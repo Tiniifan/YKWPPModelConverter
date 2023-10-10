@@ -1,35 +1,46 @@
-# ez_to_obj
-Python scrip to decompile .ez to .zip and Convert .ymd (Yo-Kai Watch Puni Puni model) to .obj
+# [YKWPPModelConverter](https://github.com/Tiniifan/YKWPPModelConverter/releases/latest) (Yo-Kai Watch Puni Puni Model Converter)
+
+YKWPP Model Converter is a tool that allows you to decompile `.ez` files and convert `.ymd` files to `.obj`. The tool comes in two versions: a Graphical User Interface (GUI) version and a Command-Line Interface (CMD) version.
 
 ## Requirements
 - Python 3: https://www.python.org/downloads/
 - Crypto: https://pypi.org/project/pycrypto/
+- tkinter: https://docs.python.org/3/library/tkinter.html
 
-## Usage
-Assuming Python has been installed, you can invoke this script with the following in a command line/terminal:
+## GUI Version
 
-  `python ez.py [path to folder containing .ez files]`
+The GUI version provides a user-friendly interface for selecting input files and setting the output folder. It can be run by executing the following command:
 
-You should put all yours .ez files on one folder like "ezs"
+```bash
+python YKWPPModelConverter_CMD.py
+````
+
+## CMD Version
+The CMD version is designed for command-line use and requires invocation with the following syntax:
+
+```bash
+python YKWPPModelConverter.py [input_folder] [output_folder]
+````
 
 Example
 
-  `python ez.py ./ezs`
+  `python YKWPPModelConverter.py ./ymds ./objs`
 
 ## Arguments
-    usage: ez.py [-h]  ez_path
+    usage: YKWPPModelConverter.py [-h]  input_path output_path
 
     Decompile .ez and convert .ymd to .obj
 
     positional arguments:
-      ez_path      path to the folder containing ez files
+      input_path        path to the folder containing ez or ymd files
+      output_folder     path to store your objs
 
     optional arguments:
       -h, --help    show this help message and exit
 
 ## Notes
-Yo-Kai Watch Puni Puni is an old game, the ymd are different between the first and the last, the script isn't able to convert all ymds.  
+Yo-Kai Watch Puni Puni is an older game with varying YMD structures between the initial and final versions. As a result, the script may encounter difficulties converting all YMD files.
 
-Sometimes when you go to apply your texture in a 3D tool like Blender, your texture will be dammaged, go to the UV and do Miror Y to restore the right UVS    
+Occasionally, when applying textures in a 3D tool such as Blender, you might notice texture damage. In such cases, navigate to the UV mapping and perform a 'Mirror Y' operation to restore the correct UVs.
 
-Sometimes some faces are missing without any reasons.
+Furthermore, there may be instances where certain faces are inexplicably missing.
