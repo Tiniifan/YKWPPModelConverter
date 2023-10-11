@@ -18,7 +18,7 @@ For the time being, only the OBJ export functionality is available.
 The GUI version provides a user-friendly interface for selecting input files and setting the output folder. It can be run by executing the following command:
 
 ```bash
-python YKWPPModelConverter_CMD.py
+python YKWPPModelConverterGUI.py
 ````
 
 ## CMD Version
